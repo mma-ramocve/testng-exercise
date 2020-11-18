@@ -2,6 +2,7 @@ import org.testng.annotations.Test;
 
 public class FirstTestCase {
 
+    // setting priorities
     @Test(priority = 1)
     void setup() {
         System.out.println("Opening browser");
